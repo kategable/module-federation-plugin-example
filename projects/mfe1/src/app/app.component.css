@@ -34,3 +34,18 @@ button:active {
 .top-nav {
     margin-bottom: 20px;
 }
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 16px;
+    color: darkred;
+    font-weight: bold;
+}
+
+nav a.active {
+    border-bottom: 2px solid darkred;
+}
