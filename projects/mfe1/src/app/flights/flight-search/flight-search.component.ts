@@ -42,7 +42,7 @@ import { Component } from '@angular/core';
 })
 export class FlightSearchComponent {
   search(): void {
-    alert('Search triggered! (Demo only)');
+   // alert('Search triggered! (Demo only)');
     throw new Error("some error")
   }
 }
